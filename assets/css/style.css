@@ -1,0 +1,13 @@
+* {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.sections {
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  background-color: rgb(175, 8, 175);
+  color: white;
+}
