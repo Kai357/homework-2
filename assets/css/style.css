@@ -1,13 +1,40 @@
 * {
-  background-color: white;
   font-family: "Times New Roman", Times, serif;
 }
 .sections {
-  border: 5px solid black;
+  border: 3px solid rgb(175, 8, 175);
   display: flex;
   flex-direction: row;
 }
 .title {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
   background-color: rgb(175, 8, 175);
   color: white;
+  box-shadow: 10px 10px 10px #565656;
+}
+header h1 {
+  font-size: 600%;
+  font-weight: bolder;
+}
+#Music_logo {
+  color: rgb(175, 8, 175);
+}
+#Music_pic {
+  display: flex;
+  right: 0;
+}
+#SD_logo {
+  color: rgb(175, 8, 175);
+}
+#AC_logo {
+  color: rgb(175, 8, 175);
+}
+nav li {
+  display: inline-block;
+  background-color: white;
+  color: rgb(175, 8, 175);
+  font-size: 20px;
+  padding: 20px;
 }
