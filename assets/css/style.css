@@ -3,18 +3,41 @@
 }
 .sections {
   border: 3px solid rgb(175, 8, 175);
-  display: flex;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
 }
 .title {
+  height: 111px;
   width: 100%;
-  position: absolute;
   z-index: 1;
   background-color: rgb(175, 8, 175);
   color: white;
   box-shadow: 10px 10px 10px #565656;
 }
+main {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.nav {
+  width: 100%;
+  height: 33%;
+}
+.contact_form {
+  position: absolute;
+  bottom: 0px;
+  height: 20%;
+  box-shadow: 0px 0px 10px 10px 10px;
+}
 header h1 {
+  position: absolute;
+  top: 0px;
+  left: 38px;
   font-size: 600%;
   font-weight: bolder;
 }
@@ -37,4 +60,14 @@ nav li {
   color: rgb(175, 8, 175);
   font-size: 20px;
   padding: 20px;
+  position: relative;
+  left: 5%;
+}
+.Header_Links {
+  padding: 15px;
+  position: absolute;
+  right: 5%;
+}
+.contact_form {
+  text-align: left;
 }
