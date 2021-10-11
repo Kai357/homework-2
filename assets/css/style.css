@@ -2,7 +2,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 .sections {
-  border: 3px solid rgb(175, 8, 175);
+  border: 1px dashed rgb(175, 8, 175);
   justify-content: center;
   flex-direction: column;
 }
@@ -70,4 +70,12 @@ nav li {
 }
 .contact_form {
   text-align: left;
+}
+section img {
+  height: 100%;
+  position: relative;
+  right: 0px;
+}
+.pages {
+  visibility: hidden;
 }
