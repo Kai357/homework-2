@@ -1,81 +1,46 @@
 * {
-  font-family: "Times New Roman", Times, serif;
+  border: 2px solid red;
 }
-.sections {
-  border: 1px dashed rgb(175, 8, 175);
-  justify-content: center;
-  flex-direction: column;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.title {
-  height: 111px;
-  width: 100%;
-  z-index: 1;
-  background-color: rgb(175, 8, 175);
-  color: white;
-  box-shadow: 10px 10px 10px #565656;
-}
-main {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 50%;
-  width: 100%;
+header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-.nav {
-  width: 100%;
-  height: 33%;
-}
-.contact_form {
+  background-color: rgb(129, 15, 236);
+  color: white;
   position: absolute;
-  bottom: 0px;
-  height: 20%;
-  box-shadow: 0px 0px 10px 10px 10px;
+  height: 125px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  box-shadow: 0px 5px 5px #646464;
 }
 header h1 {
   position: absolute;
-  top: 0px;
-  left: 38px;
-  font-size: 600%;
-  font-weight: bolder;
-}
-#Music_logo {
-  color: rgb(175, 8, 175);
-}
-#Music_pic {
+  top: 28px;
   display: flex;
-  right: 0;
+  font-size: 48px;
+  font-weight: 900;
 }
-#SD_logo {
-  color: rgb(175, 8, 175);
-}
-#AC_logo {
-  color: rgb(175, 8, 175);
-}
-nav li {
-  display: inline-block;
-  background-color: white;
-  color: rgb(175, 8, 175);
-  font-size: 20px;
-  padding: 20px;
-  position: relative;
-  left: 5%;
-}
-.Header_Links {
-  padding: 15px;
+section {
   position: absolute;
-  right: 5%;
-}
-.contact_form {
-  text-align: left;
-}
-section img {
-  height: 100%;
-  position: relative;
+  top: 45px;
   right: 0px;
+  display: flex;
+  flex-direction: row;
 }
-.pages {
-  visibility: hidden;
+ul li {
+  display: inline;
+  background-color: white;
+  color: rgb(129, 15, 236);
+  margin: 1px;
+}
+nav {
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  top: 200px;
+  flex-direction: row;
 }
