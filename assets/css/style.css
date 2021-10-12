@@ -85,3 +85,24 @@ nav {
 .Box p {
   justify-content: center;
 }
+footer {
+  display: flex;
+  background-color: rgb(129, 15, 236);
+  color: white;
+  position: absolute;
+  height: 125px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  box-shadow: 0px -5px 5px #646464;
+}
+footer h3 {
+  font-size: 56px;
+  position: absolute;
+  bottom: 51px;
+}
+.form {
+  position: absolute;
+  right: 0px;
+}
