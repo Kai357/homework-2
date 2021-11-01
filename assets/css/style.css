@@ -1,116 +1,95 @@
-
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    background-color: rgba(248, 115, 91, 0.678);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 header {
   display: flex;
-  background-color: rgb(129, 15, 236);
+  background-color: lightblue;
   color: white;
-  position: absolute;
-  height: 125px;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  width: 100%;
-  box-shadow: 0px 5px 5px #646464;
+  width: 120%;
+  height: 20%;
+  margin: 0%;
+  box-shadow: 0px 5px 5px grey;
 }
+
 header h1 {
+  position: relative;
+  left: 2px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 75px;
+}
+
+ul {
+  list-style-type: none;
   position: absolute;
-  top: 28px;
-  display: flex;
-  font-size: 48px;
-  font-weight: 900;
-}
-section {
-  position: absolute;
-  top: 45px;
-  right: 0px;
-  display: flex;
-  flex-direction: row;
-}
-ul li {
-  display: inline;
-  background-color: white;
-  color: rgb(129, 15, 236);
-  margin: 1px;
-}
-nav {
+  right: 20px;
   display: flex;
   flex-direction: row;
   margin: 5px;
-  position: absolute;
-  justify-content: center;
-  align-content: center;
-  top: 200px;
-}
-.Boxes {
-  color:rgb(129, 15, 236) ;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-}
-.Box:hover {
-  border: 2px dashed white;
-  padding: 1em;
-  margin-bottom: 1em;
-  margin-left: 1em;
-  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.699);
-
+  padding: 5px;
 }
 
-.Box {
-  border: 2px dashed white;
-  padding: 1em;
-  margin-bottom: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
+.links {
+  background-color: white;
+  color: blue;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
 }
 
-.Box h2 {
+.links:hover {
+  background-color: blue;
   color: white;
-  padding-left: 10px;
-  border: 2px solid white;
-  border-radius: 10px;
-  position: absolute;
-  top: -.75em;
-  background-color:rgb(129, 15, 236);
-  width: 85%;
 }
 
-@media screen and (min-width: 650px) {
-  .boxes {
-      flex-direction: row;
-      flex-wrap: wrap;
-  }
-  .Box {
-      flex: 1 0 300px;
-  }
-  .Box h2 {
-      width: 30%;
-  }
-.Box p {
-  justify-content: center;
+a {
+  color: blue;
+  text-decoration: none;
 }
+
+a:hover {
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: blue;
+}
+
+.P-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  text-decoration: underline;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  margin: 25px;
+}
+
 footer {
-  display: flex;
-  background-color: rgb(129, 15, 236);
-  color: white;
   position: absolute;
-  height: 125px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  width: 100%;
-  box-shadow: 0px -5px 5px #646464;
+  bottom: 5px;
+  background-color: lightblue;
+  color: blue;
+  width: 120%;
+  height: 20%;
+  margin: 0%;
+  box-shadow: 0px -5px 5px grey;
 }
-footer h3 {
-  font-size: 56px;
-  position: absolute;
-  bottom: 51px;
-}
-.form {
-  position: absolute;
-  right: 0px;
+
+form {
+  position: relative;
+  top: 50px;
 }

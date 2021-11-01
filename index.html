@@ -4,83 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kai's Site</title>
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Kai</title>
   </head>
   <body>
     <header>
-      <h1>Kai Gerstley</h1>
-      <section>
-        <ul class="Links">
-          <li id="Git">
-            <a href="https://github.com/Kai357" target="_blank">GitHub</a>
-          </li>
-          <li id="Soundcloud">
-            <a href="https://soundcloud.com/user-19777598" target="_blank"
-              >soundcloud</a
-            >
-          </li>
-          <li id="Linkdn">
-            <a
-              href="https://www.linkedin.com/in/mordechaigerstley/"
-              target="_blank"
+      <h1>Kai</h1>
+      <nav>
+        <ul>
+          <li class="links"><a href="https://github.com/Kai357">Github</a></li>
+          <li class="links">
+            <a href="https://www.linkedin.com/in/mordechaigerstley/"
               >Linkedin</a
             >
           </li>
-          <li id="resume">
-            <a href="#" target="_blank"> Resume </a>
-          </li>
+          <li class="links"><a href="#">Resume</a></li>
         </ul>
-      </section>
+      </nav>
     </header>
-    <nav class="Boxes">
-      <div class="MP , Box">
-        <h2>Music Production</h2>
-        <p>
-          Established Music Producer, Capable of playing Multiple Instruments
-        </p>
-        <a href="https://soundcloud.com/user-19777598"
-          >View My Music projects</a
+    <main>
+      <h2>My portfolio</h2>
+      <div class="P-cards">
+        <a href="https://mwathomas.github.io/project-1/"
+          >Click here to visit Foode</a
         >
         <img
-          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fmusician&psig=AOvVaw0NBRBplbsdQQGtCivIgRIb&ust=1634080086877000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOiy1u-8w_MCFQAAAAAdAAAAABAD"
-          alt="Musician icon"
+          src="assets/css/Screen Shot 2021-11-01 at 8.01.16 AM.png"
+          alt="Foode website"
         />
       </div>
-      <div class="SD , Box">
-        <h2>Software Development</h2>
-        <p>
-          Software Developer From Colombia University Coding Bootcamp (in
-          training)
-        </p>
-        <a href="https://github.com/Kai357"
-          >View My Software Developing projects</a
-        >
-
-        <img
-          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vexels.com%2Fpng-svg%2Fpreview%2F157318%2Fdesktop-computer-icon-computer&psig=AOvVaw36jS9jwnmQPNG_Uvr8KLup&ust=1634080176257000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKj1rZi9w_MCFQAAAAAdAAAAABAD"
-          alt="Computer icon"
-        />
-      </div>
-      <div class="DM , Box">
-        <h2>Digital Marketing</h2>
-        <p>Capable Digital Marketing Consultant for Service Buisnesses</p>
-        <a href="https://www.islandroofingny.com">View My Marketing projects</a>
-        <img
-          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.ca%2Famp%2Fpin%2F814588651331108140%2F&psig=AOvVaw0WQNZF_00Uf1nZcvfnEPHm&ust=1634080255270000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjM67y9w_MCFQAAAAAdAAAAABAD"
-          alt="Marketing icon"
-        />
-      </div>
-    </nav>
+    </main>
     <footer>
-      <h3>Contact Me:</h3>
-      <section class="form">
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email" />
-        <input type="tel" placeholder="Phone" />
-        <input type="submit" placeholder="let me know you visited!" />
-      </section>
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" />
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" />
+        <input type="submit" value="Submit" />
+      </form>
     </footer>
   </body>
 </html>
