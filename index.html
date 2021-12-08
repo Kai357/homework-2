@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Kai</title>
   </head>
@@ -11,7 +17,7 @@
     <header>
       <h1>Kai</h1>
       <nav>
-        <ul>
+        <ul class="nav_list">
           <li class="links"><a href="https://github.com/Kai357">Github</a></li>
           <li class="links">
             <a href="https://www.linkedin.com/in/mordechaigerstley/"
@@ -23,15 +29,41 @@
       </nav>
     </header>
     <main>
+      <div class="personal_bio">
+        <img src="" alt="Photo of me" />
+        <p>Name: Mordechai Gerstley</p>
+        <p>About me: I am an entry level computer programmer</p>
+        <p>Technologies I Know:</p>
+        <ul class="tech_list">
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+          <li>MySql</li>
+          <li>Node.js</li>
+          <li>Ruby on Rails</li>
+          <li>Monga.db</li>
+        </ul>
+      </div>
       <h2>My portfolio</h2>
-      <div class="P-cards">
-        <a href="https://mwathomas.github.io/project-1/"
-          >Click here to visit Foode</a
-        >
-        <img
-          src="assets/css/Screen Shot 2021-11-01 at 8.01.16 AM.png"
-          alt="Foode website"
-        />
+      <div class="portfolio">
+        <div class="P-cards">
+          <a href="https://mwathomas.github.io/project-1/"
+            >Click here to visit Foode</a
+          >
+          <img
+            src="assets/css/Screen Shot 2021-11-01 at 8.01.16 AM.png"
+            alt="Foode website"
+          />
+        </div>
+        <div class="P-cards">
+          <a href="https://note-deploy.herokuapp.com"
+            >Click here to visit Note</a
+          >
+          <img
+            src="/Users/mordechaigerstley/Desktop/Colombia Hw/hw 2/assets/css/Screen Shot 2021-12-08 at 2.27.26 PM.png"
+            alt="note website"
+          />
+        </div>
       </div>
     </main>
     <footer>

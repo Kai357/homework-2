@@ -20,7 +20,7 @@ header h1 {
   font-size: 75px;
 }
 
-ul {
+.nav_list {
   list-style-type: none;
   position: absolute;
   right: 20px;
@@ -70,6 +70,7 @@ main {
   width: 200px;
   height: 200px;
   text-decoration: underline;
+  margin: 25px;
 }
 
 img {
@@ -79,7 +80,7 @@ img {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 5px;
   background-color: lightblue;
   color: blue;
@@ -92,4 +93,9 @@ footer {
 form {
   position: relative;
   top: 50px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
 }
